@@ -1,0 +1,187 @@
+/* Navigation <<>> Menu */
+
+nav {
+  margin: 20px;
+  padding: 10px;
+}
+
+nav h2 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Helvetica;
+  color: #bbb;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+nav ul {
+  display: inline-block;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+  font-family: Helvetica;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition-duration: 0.2s;
+}
+
+nav li a:hover {
+  border-bottom: 2px solid #bbb;
+}
+
+.contact-button {
+  border: 2px solid red;
+  border-radius: 20px;
+  background-color: red;
+  box-shadow: 0px 0px 15px 2px #bbb;
+  transition-duration: 0.2s;
+}
+
+.contact-button:hover {
+  box-shadow: 0px 0px 15px 3px #bbb;
+}
+
+.contact-button a {
+  color: white;
+}
+
+.contact-button a:hover {
+  border: none;
+}
+
+/* Header <<>> Kopfzeile */
+
+.header {
+  background-color: #bbb;
+  text-align: center;
+}
+
+.title-subtitle {
+  margin: 20px 0px;
+  padding-top: 30px;
+}
+
+.title-subtitle h1 {
+  font-size: 28px;
+  font-weight: lighter;
+  font-family: Helvetica;
+  color: white;
+  padding: 20px;
+}
+
+.title-subtitle h2 {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: Helvetica;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.header button {
+  padding: 15px;
+  margin-bottom: 40px;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 50px;
+  color: white;
+  font-size: 18px;
+  font-family: Helvetica;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.header button:hover {
+  background-color: white;
+  color: #bbb;
+}
+
+/* Main Content <<>> Inhalt */
+
+.main-content {
+  margin: 20px;
+  padding: 10px;
+}
+
+.content-1 {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.content-1 h2 {
+  font-size: 24px;
+  font-family: Helvetica;
+}
+
+.connection-search {
+  margin: 20px;
+}
+
+.set {
+  margin-bottom: 20px;
+}
+
+.set h3 {
+  padding: 10px;
+  font-size: 14px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.from {
+  margin: 10px;
+}
+
+.to {
+  margin: 10px;
+}
+
+.connection-search button {
+  margin: 5px 3px;
+  padding: 10px;
+  background-color: red;
+  border: 2px solid red;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.connection-search button:hover {
+  background-color: white;
+  color: red;
+}
+
+.time-button button {
+  background-color: #666;
+  border: 2px solid #666;
+}
+
+.time-button button:hover {
+  color: #666;
+}
+
+/* Footer <<>> Fusszeile */
+
+footer {
+  padding: 30px;
+  background-color: #666;
+  color: white;
+  font-family: Helvetica;
+  font-size: 12px;
+}
+
+footer a {
+  color: white;
+  cursor: pointer;
+}
